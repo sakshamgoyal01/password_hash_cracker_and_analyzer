@@ -4,8 +4,8 @@ import streamlit as st
 import pandas as pd
 import string
 import itertools
-from hash_analyzer import identify_hash_type
-from hash_cracker import (
+from app.hash_analyzer import identify_hash_type
+from app.hash_cracker import (
     crack_md5, crack_ntlm, crack_sha1, crack_sha256, crack_bcrypt, brute_force_crack, crack_sha512
 )
 
